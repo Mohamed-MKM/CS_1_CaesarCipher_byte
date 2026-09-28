@@ -1,0 +1,69 @@
+CAESAR CIPHER TEST CASES
+========================
+
+Test Case 1 - Basic Encryption
+Input: Hello
+Key: 3
+Operation: Encrypt
+Expected Output: Khoor
+
+
+Test Case 2 - Basic Decryption
+Input: Khoor
+Key: 3
+Operation: Decrypt
+Expected Output: Hello
+
+
+Test Case 3 - Uppercase and Lowercase
+Input: Hello World
+Key: 3
+Operation: Encrypt
+Expected Output: Khoor Zruog
+
+
+Test Case 4 - Preserve Spaces and Punctuation
+Input: Hello, World!
+Key: 3
+Operation: Encrypt
+Expected Output: Khoor, Zruog!
+
+
+Test Case 5 - Preserve Numbers
+Input: Test 123!
+Key: 5
+Operation: Encrypt
+Expected Output: Yjxy 123!
+
+
+Test Case 6 - Alphabet Wraparound
+Input: XYZ
+Key: 3
+Operation: Encrypt
+Expected Output: ABC
+
+
+Test Case 7 - Decryption with Wraparound
+Input: ABC
+Key: 3
+Operation: Decrypt
+Expected Output: XYZ
+
+
+Test Case 8 - Key = 25
+Input: Hello
+Key: 25
+Operation: Encrypt
+Expected Output: Gdkkn
+
+
+Test Case 9 - Invalid Key
+Input: Hello
+Key: 26
+Expected Output: Invalid key message
+
+
+Test Case 10 - Invalid Operation
+Input: Hello
+Operation: x
+Expected Output: Invalid choice message
