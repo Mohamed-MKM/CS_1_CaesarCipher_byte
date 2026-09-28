@@ -57,7 +57,7 @@ No external libraries are required.
 Clone the repository:
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone <https://github.com/Mohamed-MKM/CS_1_CaesarCipher_byte.git>
 cd CS_1_CaesarCipher_byte
 ```
 
