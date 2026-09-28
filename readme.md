@@ -202,8 +202,8 @@ CS_1_CaesarCipher_byte/
 ├── test_cases.txt
 ├── sample_input.txt
 ├── sample_output.txt
-├── screenshot/
-│   └── demo.png
+├── Demonstration.png
+│
 └── README.md
 ```
 
@@ -245,7 +245,7 @@ This repository contains the required internship deliverables:
 * [x] Sample input file
 * [x] Sample output file
 * [x] Test-case file
-* [ ] Demonstration screenshot or terminal recording
+* [x] Demonstration screenshot or terminal recording
 
 The demonstration screenshot/recording should be added before final submission.
 
